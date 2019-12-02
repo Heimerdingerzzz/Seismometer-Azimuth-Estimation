@@ -1,6 +1,6 @@
 # Seismometer-Azimuth-Estimation
 
-This This repository is used for work only.
+This repository is used for work only.
 
 Work Project : [Using Wavelet Filtering to Perform Seismometer Azimuth Calculation and Data Correction]
 
