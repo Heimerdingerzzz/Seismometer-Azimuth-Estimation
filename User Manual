@@ -1,0 +1,39 @@
+Some necessary functions' manual
+
+readfile()
+# Reading seismograms file, selecting traces in a certain frequency and show the waveform.
+# You can save the waveform to a figure file in some formats.
+
+process(Stream)
+# para: Obspy Stream object
+# Do some pretreatment such as choosing the time period and calculating both Ca and Sa parameters.
+
+calculate_parameters(BHE,BHN,BLE,BLN)
+# para: BHE,BHN,BLE,BLN Trace object
+# Calculate Ca and Sa parameters
+
+r_rebuild(ca, sa, level=None)
+# para: Ca array; Sa array; level: decomposition level, defalut: max level
+# Wavelet filter for Ca Sa.
+
+getangle(ca,sa)
+# para：Ca array, Sa array
+# return:angle value
+# Estimate the azimuth
+
+correction(h_e, h_n ,angle)
+# para: BHE Trace; BHN Trace; rotatin angle 
+# Correct the raw data
+
+plothist(ca,sa)
+# para: Ca array; Sa array
+# Show the histogram of "Ca Sa" parameters 
+
+illustration(ca,sa, level= None)
+# para: Ca array; Sa array; level: decomposition level, defalut: max level
+# Illustrate the effect of proposed method by different level
+
+effect(BHE,BHN,BLE,BLN,new_bhe,new_bhn)
+# para: Raw BHE Trace; Raw BHN Trace; Raw BLE Trace; Raw BLN Trace; Corrected BHE Trace; Corrected BHN Trace; 
+# Show the correction comparison 
+
