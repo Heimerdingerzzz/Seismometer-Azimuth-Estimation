@@ -6,7 +6,7 @@ Work Project : [Using Wavelet Filtering to Perform Seismometer Azimuth Calculati
 
 Keyword：seismometer, wavelet decomposition and reconstruction filtering, angle rotation, data correction
 
-Using "estimate.py" to estimate azimuth, using "compare.py" to make comparsion of results by three different methods."additional.py" is a few lines of code used to calculate the correlation coefficient change of the data.
+Using "estimate.py" to estimate azimuth, using "compare.py" to compare the results by three different methods."additional.py" is a few lines of code used to calculate the correlation coefficient change of the data.
 Important function descriptions are given in the User Manual。
 
 For more detials connect : penghuiw@outlook.com
